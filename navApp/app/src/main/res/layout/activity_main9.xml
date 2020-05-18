@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondoapp"
     tools:context=".Main9Activity">
 
     <Button
@@ -26,6 +27,7 @@
         android:layout_marginBottom="16dp"
         android:text="Página 2"
         android:textAlignment="center"
+        android:textColor="#FFFEFE"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

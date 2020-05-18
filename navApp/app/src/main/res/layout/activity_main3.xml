@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondoapp"
     tools:context=".Main3Activity">
 
 
@@ -27,6 +28,7 @@
             android:layout_marginBottom="16dp"
             android:text="Página 3"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -91,6 +93,7 @@
             android:inputType="textEmailAddress"
             android:text="github.com/Dardo-sys"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -104,6 +107,7 @@
             android:inputType="date"
             android:text="A-245-CD-9854"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toTopOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
