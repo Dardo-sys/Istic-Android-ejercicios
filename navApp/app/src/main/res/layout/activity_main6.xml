@@ -9,9 +9,9 @@
 
     <Button
         android:id="@+id/btnVolver6"
-        android:layout_width="117dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="24dp"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
         android:text="VOLVER"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,25 +19,24 @@
 
     <Button
         android:id="@+id/btnReiniciar"
-        android:layout_width="139dp"
-        android:layout_height="40dp"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
         android:layout_marginStart="135dp"
-        android:layout_marginTop="11dp"
         android:layout_marginEnd="137dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:background="#F92525"
         android:text="REINICIAR"
         android:textColor="#F8F7F7"
         android:textColorHighlight="#FF0000"
-        app:layout_constraintBottom_toTopOf="@+id/txtResFinal"
+        app:layout_constraintBottom_toTopOf="@+id/txtVidas"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAdivinar" />
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnAdivinar"
-        android:layout_width="140dp"
-        android:layout_height="62dp"
+        android:layout_width="267dp"
+        android:layout_height="90dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="30dp"
         android:background="#81F925"
@@ -80,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/btnAyuda"
+        android:id="@+id/btnPistas6"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:layout_marginStart="10dp"
@@ -92,6 +91,7 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/txtVidas"
         app:layout_constraintEnd_toStartOf="@+id/btnMeRindo"
+        app:layout_constraintHorizontal_bias="0.036"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -109,7 +109,7 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/txtVidas"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnAyuda"
+        app:layout_constraintStart_toEndOf="@+id/btnPistas7"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -181,10 +181,19 @@
         android:textColor="#4CAF50"
         android:textSize="30sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/btnAyuda"
+        app:layout_constraintBottom_toTopOf="@+id/btnPistas7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAdivinar" />
+
+    <Button
+        android:id="@+id/btnAyuda6"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="20dp"
+        android:text="AYUDA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

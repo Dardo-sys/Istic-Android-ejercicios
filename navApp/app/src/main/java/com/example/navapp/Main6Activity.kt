@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main5.*
 import kotlinx.android.synthetic.main.activity_main6.*
 
 class Main6Activity : AppCompatActivity() {
@@ -26,6 +24,13 @@ class Main6Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main6)
+
+        btnAyuda6.setOnClickListener {
+            val intent: Intent = Intent(this, ayudaSuerte::class.java)
+            startActivity(intent)
+            finish()
+
+        }
 
         btnVolver6.setOnClickListener {
             val intent: Intent = Intent(this, Main5Activity::class.java)
@@ -47,7 +52,7 @@ class Main6Activity : AppCompatActivity() {
         txtAyuda.text = "Pistas Restantes: $numAyuda"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-        btnAyuda.setOnClickListener{ //Boton de pistas
+        btnPistas6.setOnClickListener{ //Boton de pistas
             when(ayuda)
             {
                 1 ->
@@ -89,7 +94,7 @@ class Main6Activity : AppCompatActivity() {
         btnMeRindo.setOnClickListener{ //Boton me rindo
             Toast.makeText(this,"El Número Secreto es: $numeroSecreto" , Toast.LENGTH_LONG).show()
             btnAdivinar.isEnabled = false
-            btnAyuda.isEnabled = false
+            btnPistas6.isEnabled = false
             txtIngNum.isEnabled = false
             txtResFinal.text = "Te Retiraste"
             txtResFinal.visibility = View.VISIBLE
@@ -116,7 +121,7 @@ class Main6Activity : AppCompatActivity() {
                         txtVidas.text = "Intentos Restantes: " + vidas
                         txtIntentos.text = "Cantidad de Intentos: " + intentos
                         btnAdivinar.isEnabled = false
-                        btnAyuda.isEnabled = false
+                        btnPistas6.isEnabled = false
                         btnMeRindo.isEnabled = false
                         txtIngNum.isEnabled = false
                         txtResFinal.visibility = View.VISIBLE
@@ -137,7 +142,7 @@ class Main6Activity : AppCompatActivity() {
                     txtIntentos.text = "Cantidad de Intentos: " + intentos
                     btnAdivinar.isEnabled = false
                     btnMeRindo.isEnabled = false
-                    btnAyuda.isEnabled = false
+                    btnPistas6.isEnabled = false
                     txtIngNum.isEnabled = false
                     txtResFinal.text = "PERDISTE"
                     txtResFinal.visibility = View.VISIBLE

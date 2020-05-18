@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // display Toast here...
-        Toast.makeText(this,"Bienvenido",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"Gracias por su Visita",Toast.LENGTH_SHORT).show()
 
 
         btnIr8.setOnClickListener {

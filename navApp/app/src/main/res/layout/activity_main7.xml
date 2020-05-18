@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/btnVolver7"
-        android:layout_width="117dp"
-        android:layout_height="43dp"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
         android:layout_marginBottom="24dp"
         android:text="VOLVER"
         android:textAlignment="center"
@@ -69,5 +69,15 @@
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAyuda7"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="26dp"
+        android:text="AYUDA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

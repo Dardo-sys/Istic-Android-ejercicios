@@ -6,8 +6,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
 
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main6.*
 import kotlinx.android.synthetic.main.activity_main7.*
 
 class Main7Activity : AppCompatActivity() {
@@ -27,6 +25,13 @@ class Main7Activity : AppCompatActivity() {
 
         btnVolver7.setOnClickListener {
             val intent: Intent = Intent(this, Main5Activity::class.java)
+            startActivity(intent)
+            finish()
+
+        }
+
+        btnAyuda7.setOnClickListener {
+            val intent: Intent = Intent(this, ayudaContador::class.java)
             startActivity(intent)
             finish()
 
