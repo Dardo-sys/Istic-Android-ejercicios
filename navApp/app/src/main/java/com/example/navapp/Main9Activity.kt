@@ -15,12 +15,14 @@ class Main9Activity : AppCompatActivity() {
         btnVolver9.setOnClickListener {
             val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
 
         }
 
         btnSig9.setOnClickListener {
             val intent: Intent = Intent(this, Main3Activity::class.java)
             startActivity(intent)
+            finish()
 
 
         }

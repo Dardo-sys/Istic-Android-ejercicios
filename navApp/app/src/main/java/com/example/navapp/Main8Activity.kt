@@ -15,6 +15,7 @@ class Main8Activity : AppCompatActivity() {
         btnIr8.setOnClickListener {
             val intent: Intent = Intent(this, Main9Activity::class.java)
             startActivity(intent)
+            finish()
 
         }
 

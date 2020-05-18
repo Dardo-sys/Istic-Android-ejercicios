@@ -18,9 +18,17 @@ class Main7Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main7)
 
+        btnReiniciar2.setOnClickListener {
+            val intent: Intent = Intent(this, Main7Activity::class.java)
+            startActivity(intent)
+
+
+        }
+
         btnVolver7.setOnClickListener {
             val intent: Intent = Intent(this, Main5Activity::class.java)
             startActivity(intent)
+            finish()
 
         }
 
@@ -32,6 +40,7 @@ class Main7Activity : AppCompatActivity() {
 
         minusBtn.setOnClickListener {
             value.setText("" + --id)
+
         }
     }
 }

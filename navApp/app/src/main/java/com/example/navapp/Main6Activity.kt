@@ -30,6 +30,7 @@ class Main6Activity : AppCompatActivity() {
         btnVolver6.setOnClickListener {
             val intent: Intent = Intent(this, Main5Activity::class.java)
             startActivity(intent)
+            finish()
 
         }
 

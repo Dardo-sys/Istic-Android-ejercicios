@@ -14,12 +14,14 @@ class Main2Activity : AppCompatActivity() {
         btnVolver2.setOnClickListener {
             val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
 
         }
 
         btnSig2.setOnClickListener {
             val intent: Intent = Intent(this, Main3Activity::class.java)
             startActivity(intent)
+            finish()
 
 
         }
@@ -27,6 +29,7 @@ class Main2Activity : AppCompatActivity() {
         btnRegistro.setOnClickListener {
             val intent: Intent = Intent(this, Main4Activity::class.java)
             startActivity(intent)
+            finish()
 
 
         }

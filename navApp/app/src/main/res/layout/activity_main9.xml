@@ -12,7 +12,7 @@
         android:layout_width="117dp"
         android:layout_height="43dp"
         android:layout_marginBottom="24dp"
-        android:text="VOLVER"
+        android:text="INICIO"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

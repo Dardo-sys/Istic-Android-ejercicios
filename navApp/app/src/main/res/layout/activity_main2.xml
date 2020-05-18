@@ -22,7 +22,7 @@
         android:layout_width="117dp"
         android:layout_height="43dp"
         android:layout_marginBottom="24dp"
-        android:text="VOLVER"
+        android:text="INICIO"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -141,14 +141,16 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="296dp"
-        android:layout_height="27dp"
+        android:layout_width="402dp"
+        android:layout_height="32dp"
         android:layout_marginStart="78dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="78dp"
         android:layout_marginBottom="13dp"
         android:text="Si es su primer Ingreso debe Registrarse"
         android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnSig2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
