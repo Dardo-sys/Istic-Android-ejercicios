@@ -15,6 +15,7 @@ class ayudaSuerte : AppCompatActivity() {
         btnVolverAyuda2.setOnClickListener {
             val intent: Intent = Intent(this, Main6Activity::class.java)
             startActivity(intent)
+            finish()
 
         }
     }

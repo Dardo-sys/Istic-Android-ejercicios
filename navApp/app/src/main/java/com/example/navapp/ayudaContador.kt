@@ -15,6 +15,7 @@ class ayudaContador : AppCompatActivity() {
         btnVolverAyuda.setOnClickListener {
             val intent: Intent = Intent(this, Main7Activity::class.java)
             startActivity(intent)
+            finish()
 
         }
 
