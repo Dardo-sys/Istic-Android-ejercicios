@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Main4Activity">
 
+    <Button
+        android:id="@+id/btnVolver4"
+        android:layout_width="117dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
+        android:text="VOLVER"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="97dp"

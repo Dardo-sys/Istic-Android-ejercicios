@@ -13,7 +13,7 @@ class Main3Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main3)
 
         btnVolver3.setOnClickListener {
-            val intent: Intent = Intent(this, Main2Activity::class.java)
+            val intent: Intent = Intent(this, Main9Activity::class.java)
             startActivity(intent)
 
         }
