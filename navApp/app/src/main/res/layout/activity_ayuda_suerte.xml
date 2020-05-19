@@ -17,90 +17,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="328dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="44dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="A: Debe Ingresar un numero del 1 al 100"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="324dp"
-        android:layout_height="109dp"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="B: Debe Apretar el boton Mi Suerte"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="317dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="C: Dispone de 3 Pistas"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="313dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="E: El juego le irá notificando si el número es o no correcto"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="325dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="D: Tiene 10 chances"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:text="Ayuda Adivinador"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/ayudaadivinador"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="57dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
