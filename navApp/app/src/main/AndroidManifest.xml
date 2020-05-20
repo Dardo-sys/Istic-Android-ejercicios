@@ -10,7 +10,9 @@
         android:roundIcon="@drawable/navappicon2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".conectando2"></activity>
+        <activity android:name=".MainSalir"></activity>
+        <activity android:name=".salir" />
+        <activity android:name=".conectando2" />
         <activity android:name=".conectando" />
         <activity android:name=".ayudaSuerte" />
         <activity android:name=".ayudaContador" />
