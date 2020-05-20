@@ -13,7 +13,7 @@ class Main4Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main4)
 
         btnRegistro2.setOnClickListener {
-            val intent: Intent = Intent(this, Main8Activity::class.java)
+            val intent: Intent = Intent(this, conectando::class.java)
             startActivity(intent)
             finish()
 

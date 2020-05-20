@@ -18,8 +18,8 @@ class Main2Activity : AppCompatActivity() {
 
         }
 
-        btnSig2.setOnClickListener {
-            val intent: Intent = Intent(this, Main3Activity::class.java)
+        btnIngresar.setOnClickListener {
+            val intent: Intent = Intent(this, conectando2::class.java)
             startActivity(intent)
             finish()
 

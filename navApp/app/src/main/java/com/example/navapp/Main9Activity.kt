@@ -20,7 +20,7 @@ class Main9Activity : AppCompatActivity() {
         }
 
         btnSig9.setOnClickListener {
-            val intent: Intent = Intent(this, Main3Activity::class.java)
+            val intent: Intent = Intent(this, conectando2::class.java)
             startActivity(intent)
             finish()
 

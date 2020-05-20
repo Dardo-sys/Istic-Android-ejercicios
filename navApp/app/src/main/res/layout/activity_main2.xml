@@ -102,7 +102,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnSig2"
+        android:id="@+id/btnIngresar"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginBottom="24dp"
@@ -134,7 +134,7 @@
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnSig2"
+        app:layout_constraintBottom_toTopOf="@+id/btnIngresar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
